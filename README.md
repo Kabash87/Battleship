@@ -1,18 +1,22 @@
-# Battleship
+# Battleship, programado en Javascript
 
-Se puede abrir el archivo HTML desde un navegador y luego habilitar la "Inspeccion de Desarrolladores"
-O tambien se puede abrir el archivo "game.js" desde el Visual Studio Code y el codigo funcionara igualmente
+Para ejecutar el codigo, se debe abrir una terminal y ejecutar el comando "node index.js"
+Es necesario tener instalado Node para ejecutar el juego correctamente
 
+El mapa se divide en casillas 10x10
+Existen 8 simbolos dentro del tablero:
 
-Existen 4 simbolos dentro del tablero
+  - 🛶 - Barco de 2 casillas
+  - ⛵️ - Barco de 3 casillas
+  - 🚤 - Barco de 4 casillas
+  - 🚢 - Barco de 5 casillas
+  - 💥 - Tiro a un barco dentro del Mapa
+  - 💦 - Tiro al agua, no afecto a ningun barco
+  - 🔥 - Barco Hundido
+  - ❔ - Casilla sin golpear
 
-🔘 - Significa un Espacio en Blanco, Espacio Vacio
-🚢 - Espacio donde se encuentra una Nave situada
-💦 - Espacio donde se ha atacado, pero no ha tocado ninguna nave
-💥 - Espacio donde se ha atacado, y ha hecho estallar a una Nave
-
-El juego acaba cuando un jugador haya hecho estallar todas las naves del equipo contrario
-Hay un total de 2 jugadores y cada uno tiene 10 naves, puestos de manera aleatoria
+El juego acaba cuando un jugador haya hecho estallar todas las naves del tival contrario
+Hay un total de 2 jugadores y cada uno tiene 10 naves, puestos de manera aleatoria.
 
 El tablero de arriba es del enemigo, mientras que el tablero de abajo es "nuestro" tablero
 
