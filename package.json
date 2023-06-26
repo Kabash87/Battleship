@@ -1,0 +1,12 @@
+{
+  "name": "battleship-js",
+  "version": "1.0.0",
+  "description": "Juego clasico de Battleship programado en Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Diego Hernandez",
+  "license": "ISC",
+  "type": "module"
+}
